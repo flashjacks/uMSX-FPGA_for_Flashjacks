@@ -1,0 +1,93 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'PLL4X:U00|altpll:altpll_component|_clk1'
+Slack : 2.334
+TNS   : 0.000
+
+Type  : Slow Model Setup 'PLL4X:U00|altpll:altpll_component|_clk0'
+Slack : 10.602
+TNS   : 0.000
+
+Type  : Slow Model Hold 'PLL4X:U00|altpll:altpll_component|_clk0'
+Slack : 0.822
+TNS   : 0.000
+
+Type  : Slow Model Hold 'PLL4X:U00|altpll:altpll_component|_clk1'
+Slack : 0.886
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'PLL4X:U00|altpll:altpll_component|_clk1'
+Slack : 4.436
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'PLL4X:U00|altpll:altpll_component|_clk0'
+Slack : 41.613
+TNS   : 0.000
+
+Type  : Slow Model Removal 'PLL4X:U00|altpll:altpll_component|_clk0'
+Slack : 1.423
+TNS   : 0.000
+
+Type  : Slow Model Removal 'PLL4X:U00|altpll:altpll_component|_clk1'
+Slack : 6.431
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'PLL4X:U00|altpll:altpll_component|_clk1'
+Slack : 4.001
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'PLL4X:U00|altpll:altpll_component|_clk0'
+Slack : 21.459
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'pClk21m'
+Slack : 23.277
+TNS   : 0.000
+
+Type  : Fast Model Setup 'PLL4X:U00|altpll:altpll_component|_clk1'
+Slack : 4.222
+TNS   : 0.000
+
+Type  : Fast Model Setup 'PLL4X:U00|altpll:altpll_component|_clk0'
+Slack : 18.276
+TNS   : 0.000
+
+Type  : Fast Model Hold 'PLL4X:U00|altpll:altpll_component|_clk0'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Fast Model Hold 'PLL4X:U00|altpll:altpll_component|_clk1'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'PLL4X:U00|altpll:altpll_component|_clk1'
+Slack : 8.761
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'PLL4X:U00|altpll:altpll_component|_clk0'
+Slack : 44.608
+TNS   : 0.000
+
+Type  : Fast Model Removal 'PLL4X:U00|altpll:altpll_component|_clk0'
+Slack : 0.576
+TNS   : 0.000
+
+Type  : Fast Model Removal 'PLL4X:U00|altpll:altpll_component|_clk1'
+Slack : 2.592
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'PLL4X:U00|altpll:altpll_component|_clk1'
+Slack : 4.585
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'PLL4X:U00|altpll:altpll_component|_clk0'
+Slack : 22.043
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'pClk21m'
+Slack : 23.277
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,13 @@
+BLOCK		START ADDRESS		END ADDRESS
+
+Page_0		0x00000000		0x0002BD9D
+iplrom_304k.hex		0x00033400		0x000339E8
+emsx_top_304k.hex		0x00034000		0x0007FFFF
+
+
+
+Notes:
+
+- Data checksum for this conversion is 0x034D8203
+
+- All the addresses in this file are byte addresses

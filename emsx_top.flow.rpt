@@ -1,0 +1,130 @@
+Flow report for emsx_top
+Thu Apr 18 20:45:19 2024
+Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; Flow Summary                                                          ;
++-----------------------+-----------------------------------------------+
+; Flow Status           ; Successful - Thu Apr 18 20:45:17 2024         ;
+; Quartus II Version    ; 11.0 Build 208 07/03/2011 SP 1 SJ Web Edition ;
+; Revision Name         ; emsx_top                                      ;
+; Top-level Entity Name ; emsx_top                                      ;
+; Family                ; Cyclone                                       ;
+; Device                ; EP1C12Q240C8                                  ;
+; Timing Models         ; Final                                         ;
+; Total logic elements  ; 9,563 / 12,060 ( 79 % )                       ;
+; Total pins            ; 171 / 173 ( 99 % )                            ;
+; Total virtual pins    ; 0                                             ;
+; Total memory bits     ; 63,566 / 239,616 ( 27 % )                     ;
+; Total PLLs            ; 1 / 2 ( 50 % )                                ;
++-----------------------+-----------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 04/18/2024 20:43:21 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; emsx_top            ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                 ;
++-------------------------------------+--------------------------------+--------------------------------+-------------+------------+
+; Assignment Name                     ; Value                          ; Default Value                  ; Entity Name ; Section Id ;
++-------------------------------------+--------------------------------+--------------------------------+-------------+------------+
+; ALLOW_ANY_RAM_SIZE_FOR_RECOGNITION  ; On                             ; Off                            ; --          ; --         ;
+; ALLOW_ANY_ROM_SIZE_FOR_RECOGNITION  ; On                             ; Off                            ; --          ; --         ;
+; ALLOW_POWER_UP_DONT_CARE            ; Off                            ; On                             ; --          ; --         ;
+; AUTO_ENABLE_SMART_COMPILE           ; On                             ; --                             ; --          ; --         ;
+; AUTO_RESOURCE_SHARING               ; On                             ; Off                            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 10995770589189.171346580106676 ; --                             ; --          ; --         ;
+; CYCLONE_OPTIMIZATION_TECHNIQUE      ; Area                           ; Balanced                       ; --          ; --         ;
+; ENABLE_CLOCK_LATENCY                ; On                             ; Off                            ; --          ; --         ;
+; ENABLE_SIGNALTAP                    ; Off                            ; --                             ; --          ; --         ;
+; FITTER_EFFORT                       ; Standard Fit                   ; Auto Fit                       ; --          ; --         ;
+; FORCE_SYNCH_CLEAR                   ; On                             ; Off                            ; --          ; --         ;
+; IGNORE_LCELL_BUFFERS                ; On                             ; Off                            ; --          ; --         ;
+; NUM_PARALLEL_PROCESSORS             ; All                            ; --                             ; --          ; --         ;
+; OPTIMIZE_HOLD_TIMING                ; All Paths                      ; IO Paths and Minimum TPD Paths ; --          ; --         ;
+; OPTIMIZE_MULTI_CORNER_TIMING        ; On                             ; Off                            ; --          ; --         ;
+; PARTITION_COLOR                     ; 16764057                       ; --                             ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --                             ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --                             ; --          ; Top        ;
+; SAVE_DISK_SPACE                     ; Off                            ; On                             ; --          ; --         ;
+; SYNTH_TIMING_DRIVEN_SYNTHESIS       ; On                             ; --                             ; --          ; --         ;
+; TIMEQUEST_MULTICORNER_ANALYSIS      ; On                             ; Off                            ; --          ; --         ;
++-------------------------------------+--------------------------------+--------------------------------+-------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:52     ; 1.0                     ; 355 MB              ; 00:00:52                           ;
+; Fitter                    ; 00:00:57     ; 2.8                     ; 461 MB              ; 00:01:41                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 295 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.5                     ; 300 MB              ; 00:00:04                           ;
+; Total                     ; 00:01:55     ; --                      ; --                  ; 00:02:39                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; CRYSTALPALACE    ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; CRYSTALPALACE    ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; CRYSTALPALACE    ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; CRYSTALPALACE    ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off uMSX_EdFJ -c emsx_top
+quartus_fit --read_settings_files=off --write_settings_files=off uMSX_EdFJ -c emsx_top
+quartus_asm --read_settings_files=off --write_settings_files=off uMSX_EdFJ -c emsx_top
+quartus_sta uMSX_EdFJ -c emsx_top
+
+
+
