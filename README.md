@@ -8,18 +8,18 @@ Then Convert program files: emsx_top_304k.cof / emsx_top_304k.hex source / iplro
 Crush the emsx_top.pof. Dump all the pof to the FPGA.
 
 Changes for the FJ:
--- FM removed (OPLL ROM+FM).
--- Kanji removed
--- ESE-SCC1 and 2 were removed.
--- Only 64/512 kb of RAM for full compatibility with all MSX. For the rest use RAM Flashjacks.
--- Bidir for PSG bus slot. This is to inject data from the Flashjacks cassette.
--- Spanish keymap
--- Added scan lines. Control by jumper 4. Luminance compensated in scanlines mode.
--- Force VIDEOOUTX to 1. Eliminates error lines in VGA, SC12 interpolation mode.
--- Central image in VGA systems.
--- Autoboot BIOS with internal flash. No SD card needed.
--- Dip Switch and Led reconfigured for the new Flashjacks configuration.
--- Turbo CPU at 4.29 Mhz for compatibility with Flashjacks.
+- FM removed (OPLL ROM+FM).
+- Kanji removed
+- ESE-SCC1 and 2 were removed.
+- Only 64/512 kb of RAM for full compatibility with all MSX. For the rest use RAM Flashjacks.
+- Bidir for PSG bus slot. This is to inject data from the Flashjacks cassette.
+- Spanish keymap
+- Added scan lines. Control by jumper 4. Luminance compensated in scanlines mode.
+- Force VIDEOOUTX to 1. Eliminates error lines in VGA, SC12 interpolation mode.
+- Central image in VGA systems.
+- Autoboot BIOS with internal flash. No SD card needed.
+- Dip Switch and Led reconfigured for the new Flashjacks configuration.
+- Turbo CPU at 4.29 Mhz for compatibility with Flashjacks.
 
 For SD card:
 - Create one with the OCM-SDBIOS Pack v3.7 from kdl. make folder. make-sdb.cmd --> will create the OCM-BIOS.DAT. Then make a new-sdcard.cmd if we do not have the microSD formatted.
