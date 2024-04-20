@@ -31,3 +31,6 @@ For BIOS boot. No SD card needed:
 
 Upload Firmware to FPGA:
 - Upload the firmware named emsx_top.pof via cable using Quartus and the USB-Blaster.
+
+Explanatory video:
+https://youtu.be/LxAlTvBGR10?si=zQlXzVKtt19Rj5Ed
